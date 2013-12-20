@@ -2,6 +2,7 @@ package MVC;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -46,6 +47,7 @@ public class WindowView extends JPanel implements Observer, MouseListener,
 
 	public WindowView(Controleur control, Model mod, OutilView outilVie,
 			CouleurView color) {
+		this.setPreferredSize(new Dimension(800,800));
 		this.setLayout(new BorderLayout());
 		menuBar.add(menu);
 		menu.add(save);
