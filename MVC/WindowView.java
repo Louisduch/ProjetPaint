@@ -39,10 +39,10 @@ public class WindowView extends JPanel implements Observer, MouseListener,
 	protected JMenuItem open = new JMenuItem("Ouvrir");
 	protected JMenuItem savePng = new JMenuItem("save png");
 	protected JMenuItem vider = new JMenuItem("vider");
-	protected JButton vide = new JButton(new ImageIcon("src/image/vide.png"));
-	protected JButton plein = new JButton(new ImageIcon("src/image/plein.png"));
+	protected JButton vide = new JButton(new ImageIcon("src/Image/vide.png"));
+	protected JButton plein = new JButton(new ImageIcon("src/Image/plein.png"));
 	protected JButton retour = new JButton(
-			new ImageIcon("src/image/retour.png"));
+			new ImageIcon("src/Image/retour.png"));
 
 	public WindowView(Controleur control, Model mod, OutilView outilVie,
 			CouleurView color) {

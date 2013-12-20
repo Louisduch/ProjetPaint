@@ -42,14 +42,14 @@ public class OutilView extends JPanel implements Observer, ActionListener {
 
 	private void initListButton(ArrayList<JButton> listB) {
 		// TODO Auto-generated method stub
-		listB.add(new JButton(new ImageIcon("src/image/line.png")));
-		listB.add(new JButton(new ImageIcon("src/image/rect.png")));
-		listB.add(new JButton(new ImageIcon("src/image/square.png")));
-		listB.add(new JButton(new ImageIcon("src/image/circle.png")));
-		listB.add(new JButton(new ImageIcon("src/image/erase.png")));
-		listB.add(new JButton(new ImageIcon("src/image/select.png")));
-		listB.add(new JButton(new ImageIcon("src/image/move.png")));
-		listB.add(new JButton(new ImageIcon("src/image/modif.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/line.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/rect.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/square.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/circle.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/erase.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/select.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/move.png")));
+		listB.add(new JButton(new ImageIcon("src/Image/modif.png")));
 	}
 
 	@Override
